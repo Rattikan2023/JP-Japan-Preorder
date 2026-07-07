@@ -64,27 +64,28 @@
     .container{
 
       max-width:1400px;
+
       margin:auto;
+
       padding:20px;
 
     }
 
     .grid{
       display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+      grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
       gap:20px;
      }
 
     .card{
 
-      background:white;
+      background:#fff;
+
       border-radius:12px;
+
       overflow:hidden;
 
       box-shadow:0 2px 8px rgba(0,0,0,.08);
-
-      transition:.2s;
-
     }
 
     .card:hover{
@@ -96,9 +97,12 @@
     .card img{
 
       width:100%;
-      height:320px;
+
+      height:220px;
+
       object-fit:cover;
-      background:#eee;
+
+      display:block;
 
     }
 
@@ -110,16 +114,18 @@
 
     .title{
 
-      font-size:18px;
+      font-size:26px;
+
       font-weight:bold;
-      margin-bottom:8px;
+
+      margin-bottom:10px;
 
     }
 
     .price{
 
       color:#d6001c;
-      font-size:22px;
+      font-size:42px;
       font-weight:bold;
       margin-bottom:10px;
 
