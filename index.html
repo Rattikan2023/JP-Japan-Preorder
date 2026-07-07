@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>JP Japan Preorder</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mobile.css">
+
+</head>
+
+<body>
+
+<header>
+
+JP Japan Preorder
+
+</header>
+
+<div class="toolbar">
+
+<input
+id="searchBox"
+type="text"
+placeholder="ค้นหาสินค้า..."
+onkeyup="searchProducts()">
+
+<button onclick="reloadProducts()">
+
+รีเฟรช
+
+</button>
+
+</div>
+
+<div class="container">
+
+<div
+id="loading"
+class="loading">
+
+กำลังโหลดสินค้า...
+
+</div>
+
+<div
+id="productGrid"
+class="grid">
+
+</div>
+
+</div>
+
+<div
+class="floatingCart"
+onclick="openCart()">
+
+🛒
+
+<span id="cartCount">
+
+0
+
+</span>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
